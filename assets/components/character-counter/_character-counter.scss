@@ -1,0 +1,28 @@
+/*
+Character Counter
+
+A character counter for textareas.
+
+Markup: character-counter.html
+
+Styleguide Textarea Input.Counter
+*/
+
+.char-counter {
+  position: relative;
+  margin-bottom: 1.5em;
+  display: block;
+
+  [data-char-field] {
+    height: 70px;
+  }
+
+  @include media(tablet) {
+    display: inline-block;
+  }
+}
+
+.char-counter-text {
+  color: #6f777b;
+  text-align: right;
+}
